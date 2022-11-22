@@ -45,5 +45,8 @@ while True:
     if event in ('Clean', None):
         if event == 'Clean':
             os.system('./palera1n clean && rm -rf blobs')
+    if event in ('Close', None):
+        if event == 'Close':
+            win.close()
 
 win.close()
